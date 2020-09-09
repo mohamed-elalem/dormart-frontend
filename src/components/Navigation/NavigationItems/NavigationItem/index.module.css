@@ -1,0 +1,38 @@
+.NavigationItem {
+  width: 90%;
+  padding: 15px 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 4px 5px 1px #ccc;
+  text-align: center;
+  animation: hover-out 0.4s ease-out forwards;
+}
+
+.NavigationItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.NavigationItem:hover {
+  animation: hover-in 0.4s ease-out forwards;
+}
+
+@keyframes hover-in {
+  0% {
+    background-color: #fff;
+  }
+
+  100% {
+    background-color: #eee;
+  }
+}
+
+@keyframes hover-out {
+  0% {
+    background-color: #eee;
+  }
+
+  100% {
+    background-color: #fff;
+  }
+}

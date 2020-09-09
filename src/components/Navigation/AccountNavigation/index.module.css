@@ -1,0 +1,46 @@
+.NavigationLink {
+  width: 85%;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 100%;
+  animation: hoverOutNavigation 0.3s ease-out forwards;
+}
+
+.NavigationLink a {
+  color: black;
+  text-decoration: none;
+}
+
+.NavigationLink a:hover {
+  text-decoration: underline;
+}
+
+.NavigationLink:hover {
+  animation: hoverInNavigation 0.3s ease-out forwards;
+}
+
+@keyframes hoverInNavigation {
+  0% {
+    box-shadow: 0;
+    font-size: 100%;
+  }
+
+  100% {
+    box-shadow: 1px 4px 5px 1px #ccc;
+    font-size: 150%;
+  }
+}
+
+@keyframes hoverOutNavigation {
+  0% {
+    box-shadow: 1px 4px 5px 1px #ccc;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}

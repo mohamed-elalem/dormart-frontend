@@ -1,0 +1,15 @@
+.Input {
+  margin-bottom: 15px; 
+}
+
+.Input label {
+  display: block;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.Input input {
+  display: block;
+  height: 4vh;
+  width: 40vw;
+}

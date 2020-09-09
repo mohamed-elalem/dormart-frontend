@@ -1,0 +1,21 @@
+.AccountNavigationToolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
+  border-radius: 1px;
+  width: 24vw;
+  background-color: #f9f9f9;
+}
+
+.CloseIcon {
+  z-index: 1000;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.UserInfo {
+  display: flex;
+  margin-left: 3px;
+  align-items: center;
+}

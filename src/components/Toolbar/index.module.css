@@ -1,0 +1,26 @@
+.Toolbar {
+  justify-content: space-between;
+}
+
+.MenuButton {
+  color: white;
+  background-color: white;
+
+}
+
+.Search {
+  width: 28vw;
+}
+
+.SearchInput {
+  width: 100%;
+  background-color: #4556b5;
+}
+
+.SearchInput input {
+  color: white;
+}
+
+.AccountSideDrawer {
+  cursor: pointer;
+}

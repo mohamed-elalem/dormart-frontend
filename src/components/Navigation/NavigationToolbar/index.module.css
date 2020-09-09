@@ -1,0 +1,15 @@
+.NavigationToolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  background-color: #041e42;
+  align-items: center;
+  border-radius: 1px;
+  margin-bottom: 10px;
+}
+
+.CloseIcon {
+  z-index: 1000;
+  cursor: pointer;
+  margin-right: 8px;
+}

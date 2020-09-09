@@ -1,0 +1,14 @@
+.ProductImage img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.ProductPrice {
+  margin-top: 10px;
+}
+
+.FormControl {
+  display: block !important;
+  margin-bottom: 10px !important;
+}
